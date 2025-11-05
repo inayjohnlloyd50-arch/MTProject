@@ -1,0 +1,281 @@
+body {
+    background: linear-gradient(black,white);
+    margin: 0;
+    padding: 8;
+    background-size: cover;
+    height: 150vh;
+    position: center;
+}
+
+h1 {
+    color:black;
+    font-size: 40px;
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+    font-family:'f Farek', sans-serif;                                                                     
+    margin-top: 5%;
+    margin-bottom: -20px;
+    line-height: 1;
+    text-shadow: 2px 2px 4px #000000;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(-20px); 
+    }
+}
+
+.logo{
+    position: relative;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 950px;
+    display: flex;
+  
+}
+
+.navbar {
+          background-color:lightgrey;
+          width: 100%;
+          margin: 0px;
+          list-style: none;
+          display: flex;
+          justify-content: space-around;
+          font-size: 1.5rem;           
+          
+}
+.navbar ul li a{
+          display: block;
+          font-size: 16px;
+          padding: 20px;
+          text-decoration: none;
+          flex-direction: row;
+          gap: 50px;
+          row-gap: 20px;
+          flex-flow: nowrap;
+          justify-items: center;
+          box-sizing: border-box;
+          color: white;
+         
+
+}
+.navbar ul {
+          list-style: none;
+          display: flex;
+          justify-content: space-around;
+          flex-grow: 2;
+          font-size: 1.5rem;
+      
+}
+
+.navbar ul li a:hover {
+    background: linear-gradient(black,red);
+}
+
+.pos-cen {
+    background-color:skyblue ;
+    box-shadow: 0 0 20px blue;
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    justify-content: space-between;
+    margin: 3rem auto;
+    
+    
+}
+
+.pos-cen img{
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+    padding-left: 40px;
+}
+
+.pos-cen p{
+    padding-left: 40px;
+    color: black;
+    font-size: larger;
+    
+}
+
+.pos-dish {
+    background-color:skyblue ;
+    box-shadow: 0 0 20px blue;
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    justify-content: space-between;
+    margin: 3rem auto;
+    border-radius: 16px;
+    
+}
+
+.pos-dish img{
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+    padding-left: 40px;
+}
+
+.pos-dish p{
+    padding-left: 40px;
+    color: black;
+    font-size: medium;
+    
+}
+
+.dish-cen {
+    background-color:skyblue ;
+    box-shadow: 0 0 20px blue;
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    justify-content: space-between;
+    margin: 3rem auto;
+    border-radius: 16px;
+    
+}
+
+.dish-cen img{
+    width: 400px;
+    height: auto;
+    object-fit: contain;;
+    padding-left: 40px;
+}
+
+.dish-cen p{
+    padding-left: 40px;
+    color: black;
+    font-size: medium;
+    
+}
+
+
+.nec-dish {
+    background-color:skyblue ;
+    box-shadow: 0 0 20px blue;
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    justify-content: space-between;
+    margin: 3rem auto;
+    border-radius: 16px;
+    
+}
+
+.nec-dish img{
+    width: 400px;
+    height: auto;
+    object-fit: contain;;
+    padding-left: 40px;
+}
+
+.nec-dish p{
+    padding-left: 40px;
+    color: black;
+    font-size: medium;
+    
+}
+
+.dish-nec {
+    background-color:skyblue ;
+    box-shadow: 0 0 20px blue;
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    justify-content: space-between;
+    margin: 3rem auto;
+    border-radius: 16px;
+    
+}
+
+.dish-nec img{
+    width: 400px;
+    height: auto;
+    object-fit: contain;;
+    padding-left: 40px;
+}
+
+.dish-nec p{
+    padding-left: 40px;
+    color: black;
+    font-size: medium;
+    
+}
+
+
+.sidh-cen {
+    background-color:skyblue ;
+    box-shadow: 0 0 20px blue;
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    justify-content: space-between;
+    margin: 3rem auto;
+    border-radius: 16px;
+    
+}
+
+.sidh-cen img{
+    width: 400px;
+    height: auto;
+    object-fit: contain;;
+    padding-left: 40px;
+}
+
+.sidh-cen p{
+    padding-left: 40px;
+    color: black;
+    font-size: medium;
+    
+}
+
+.footer {
+    color: rgb(249, 248, 248);
+    padding: 1px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.ILI-TI {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.tag-line {
+    font-size: 0.9em;
+    color: #fbf8f8;
+    margin-bottom: 15px;
+}
+
+.footer-copyright {
+    border-top: 5px  #060704; 
+    padding-top: 5px;
+    font-size: 1rem;
+    background: black;
+    color: #f9f6f6;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    
+    
+   
+}
+
+
+

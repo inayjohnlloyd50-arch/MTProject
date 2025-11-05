@@ -1,0 +1,101 @@
+body {
+    background-image: url(../img/557455565_1508798550461869_3262642135377898943_n.jpg);
+    margin: 0;
+    padding: 8;
+    background-size: cover;
+    height: 150vh;
+    position: center;
+}
+
+
+.logo{
+    position: relative;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 950px;
+    display: flex;
+  
+}
+
+h1 {
+    color:black;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: -20px;
+    line-height: 1;
+    text-shadow: 2px 2px 4px #000000;
+    animation: float 5s ease-in-out infinite;
+    font-family:'f Farek', sans-serif;
+    
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(-20px); 
+    }
+}
+
+
+
+.navbar {
+          width: 100%;
+          margin: 0px;
+          list-style: none;
+          display: flex;
+          justify-content: space-around;
+          font-size: 1.5rem;           
+          
+}
+.navbar ul li a{
+          display: block;
+          font-size: 16px;
+          padding: 20px;
+          text-decoration: none;
+          flex-direction: row;
+          gap: 50px;
+          row-gap: 20px;
+          flex-flow: nowrap;
+          justify-items: center;
+          box-sizing: border-box;
+          color: white;
+         
+
+}
+.navbar ul {
+          list-style: none;
+          display: flex;
+          justify-content: space-around;
+          flex-grow: 2;
+          font-size: 1.5rem;
+      
+}
+
+.navbar ul li a:hover {
+    background: linear-gradient(black,red);
+
+}
+
+
+.btn {
+   display: inline-block;
+   padding: 10px 30px;
+   background: #7cf03d;
+   border: 2px solid #7cf03d;
+   border-radius: 40px;
+   box-shadow: 0 0 10px  #7cf03d;
+   font-size: 16px;
+   color: black;
+   font-weight: 600;
+   transition: .5s;
+}
+
+.btn:hover {
+   background: transparent;
+   color: #7cf03d;
+   box-shadow: none;
+}
+
